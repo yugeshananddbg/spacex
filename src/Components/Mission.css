@@ -1,0 +1,21 @@
+.Mission{
+    display: flex;
+flex-direction: column;
+
+    width: 220px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+}
+
+#name{
+    color: purple;
+    text-align: left;
+}
+#s{
+    color:rgba(0, 0, 0, 0.671);
+    font-weight: 300;
+}

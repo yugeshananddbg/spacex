@@ -1,0 +1,52 @@
+
+
+
+.App-header {
+
+  min-height: 5vh;
+  padding-left: 10px;
+  
+
+  font-size: calc(5px + 2vmin);
+  color: black;
+}
+
+
+
+.App-footer{
+  min-height: 3vh;
+  text-align: center;
+  bottom: 0;
+  padding: 10px;
+  width: 100%;
+ position: fixed;
+ font-size: calc(3px + 2vmin);
+ background-color: rgba(32, 32, 31, 0.925);
+ color: white;
+}
+.code{
+
+  text-align: center;
+
+}
+.bold{
+  
+  font-weight: bolder;
+  margin: .3vmax;
+
+}
+@media only screen and (max-width: 600px) {
+  .App-header {
+
+    min-height: 5vh;
+    padding-left: 10px;
+  
+    font-size: calc(10px + 2vmin);
+    color: black;
+  }
+  
+  .App-footer{
+    position: relative;
+    background-color: aqua;
+  }
+}

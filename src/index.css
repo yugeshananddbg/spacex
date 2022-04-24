@@ -1,0 +1,11 @@
+*{
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+ 
+  border: none;
+}
+body{
+  background-color: antiquewhite;
+
+}
